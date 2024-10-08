@@ -47,7 +47,28 @@ const sumOfThreeOrFive = () => {
   console.log(s);
 };
 
-sumOfThreeOrFive();
+//sumOfThreeOrFive();
 
 //Q6
-const isLowerCase = (l) => {};
+const isAllLowerCase = (s) => {
+  console.log(s === s.toLowerCase());
+};
+
+//isAllLowerCase("hello");
+//isAllLowerCase("seven eleven");
+//isAllLowerCase("Seven eleven has the best slushies");
+
+//Bonus
+const countMultiplesOfFive = (a) => {
+  n = 0;
+  for (i = 0; i < a.length; i++) {
+    if (a[i] % 5 === 0) {
+      n++;
+    }
+  }
+  console.log(n);
+};
+
+//countMultiplesOfFive([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+//countMultiplesOfFive([15, 23, 35, 45, 67]);
+//countMultiplesOfFive([2, 6, 14]);
